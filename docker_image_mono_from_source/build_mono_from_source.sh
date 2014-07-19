@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd /tmp/mono
 ./autogen.sh --prefix=/usr/local
 make get-monolite-latest
