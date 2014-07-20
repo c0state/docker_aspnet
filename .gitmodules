@@ -1,3 +1,0 @@
-[submodule "docker_image_mono_from_source/mono"]
-	path = docker_image_mono_from_source/mono
-	url = git://github.com/mono/mono
