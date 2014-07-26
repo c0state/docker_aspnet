@@ -6,7 +6,7 @@ set -e
 # clone mono, switch to known working commit and sync down submodules
 git clone --recursive https://github.com/mono/mono /buildtemp/mono
 cd /buildtemp/mono
-git checkout d959941265aa7c63dfca3608cc182cca4a29e49f
+git checkout 91c346a3f602b783ed5af6f53a6bb41262d0903e
 git submodule sync --recursive
 git submodule update --recursive
 
